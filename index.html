@@ -4,6 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
 </head>
 <body>
 	
@@ -15,10 +16,10 @@
             <li> <a href="#contacto"> Contacto</a></li>
         </ul>
 	</nav>
-	<header>
+	<header class="header">
 		<div class="container-perfil">
 			<img class="img-perfil" src="img-perfill001.PNG">
-			<div class="contrainer-description-perfil">
+			<div class="container-description-perfil">
 				<p>Desarrollador de proyectos</p>
 			</div>
 		</div>
@@ -26,7 +27,7 @@
 	<div class="container">
 		<section class="section-about-me">
 			<div class="about-me">
-				<div class="tittle-about-me">									
+				<div class="tittle-about-me">						<p>Sobre mi</p>			
 				</div>
 				<div class="container-about-me">
 				</div>
@@ -47,7 +48,7 @@
 					<ul>
 						<li>Html5</li>
 						<li>Css</li>
-						<li>SQLserver</li>
+						<li>SqlServer</li>
 						<li>Git</li>
 					</ul>
 				</div>
@@ -87,39 +88,38 @@
 				
 			</div>
 		</section>
-		<section class="section-contac-me">
+		<section class="section-contact-me">
 			<div>
 				<h3>Formulario de contacto</h3>
 				<h5>Ingrese su informacion</h5>
 				<form action="" method="">
 					<label for="nombre">Nombre:</label>
 					<input type="text" name="nombre">
-					<br><br>
+					
 					<label for="apellidos">Apellidos:</label>
 					<input type="text" name="apellidos">
-					<br><br>
+					
 					<label for="empresa">Empresa:</label>
 					<input type="text" name="empresa">
-					<br><br>
+					
 					<label for="pais">Pais:</label>
 					<input type="text" name="pais">
-					<br><br>
+					
 					<label for="correo">E-mail:</label>
 					<input type="text" name="correo">
-					<br><br>
+					
 					<label for="telefono">Contacto telefonico:</label>
 					<input type="text" name="telefono">
-					<br><br>
+					
 					<label for="hombre">Masculino</label>
 					<input type="radio" name="genero" id="hombre">
 					<label for="mujer">Femenino</label>
 					<input type="radio" name="genero" id="mujer">
-					<br><br>
+					
 					<label for="asunto">Asunto(general)</label>
 					<input type="text" name="asunto">
-					<input type="checkbox" name="urgencia" id=<urgencia>
+					<input type="checkbox" name="urgencia" id="urgencia">
 					<label for="urgencia">Urgente</label>
-					<br><br>
 					<input type="submit" name="Enviar datos">
 					<input type="reset" name="borrar datos">
 
@@ -128,7 +128,11 @@
 		</section>
 
 	</div>
-	<footer></footer>
+	<footer class="footer">
+        <div class="container-footer">
+            <p><span>&copy</span> 2021 Randy Taco</p>
+        </div>
+    </footer>
 
 
 

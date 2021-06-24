@@ -1,1 +1,65 @@
-dasda
+nav.navbar{
+	background-color: #E60026;
+}
+header.header{
+	background-color: #6B81C7;
+
+}
+div.container-perfil {
+	background-color: #6B8154;
+	width: 400px;
+	height: 400px;
+	margin: auto;
+}
+.container-perfil img{
+	height: 80%;
+	width: 80%;
+	object-fit: contain;
+
+	
+}
+div.container-description-perfil{
+	background-color: #5DBA79;
+	display: inline-block;
+	box-sizing: content-box;
+	margin: auto;
+
+}
+div.container{
+	background-color: #B173DF ;
+}
+
+section.section-about-me{
+	background-color: #65E6F5;
+}
+
+section.section-skills{
+	background-color: #FFA9EC;
+}
+section.section-social-media{
+	background-color: #FF8D4A;
+}
+section.section-contact-me{
+	background-color: #BBBCE9;
+
+}
+
+div.skill{
+	background-color: #5DBA79;
+	display: inline-block;
+	box-sizing: content-box;
+	position: relative;
+	left: 0px;
+	}
+div.inprogress-skills{
+	background-color: #6B8154;
+	display: inline-block;
+	box-sizing: content-box;
+	position: relative;
+	left: 0px;
+	}
+
+
+footer.footer{
+	background-color: #FFF279;
+}
