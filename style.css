@@ -1,9 +1,15 @@
+*{
+	margin: 0px;
+}
 nav.navbar{
 	background-color: #E60026;
+	font-size: 20px;
+	width: 100vw;
 }
 header.header{
 	background-color: #6B81C7;
-
+	width: 100vw;
+	height: 90vh;
 }
 div.container-perfil {
 	background-color: #6B8154;
@@ -15,51 +21,63 @@ div.container-perfil {
 	height: 80%;
 	width: 80%;
 	object-fit: contain;
-
-	
 }
 div.container-description-perfil{
 	background-color: #5DBA79;
 	display: inline-block;
 	box-sizing: content-box;
 	margin: auto;
-
 }
 div.container{
 	background-color: #B173DF ;
+	width: 100vw;
 }
 
 section.section-about-me{
 	background-color: #65E6F5;
+	width: 100vw;
+	height: 100vh;
 }
 
 section.section-skills{
 	background-color: #FFA9EC;
+	width: 100vw;
+	height: 100vh;
 }
 section.section-social-media{
 	background-color: #FF8D4A;
+	width: 100vw;
+	height: 100vh;
 }
 section.section-contact-me{
 	background-color: #BBBCE9;
+	width: 100vw;
+	height: 100vh;
 
 }
-
 div.skill{
 	background-color: #5DBA79;
 	display: inline-block;
 	box-sizing: content-box;
 	position: relative;
 	left: 0px;
-	}
+}
 div.inprogress-skills{
 	background-color: #6B8154;
 	display: inline-block;
 	box-sizing: content-box;
 	position: relative;
 	left: 0px;
-	}
-
-
+}
 footer.footer{
 	background-color: #FFF279;
+	width: 100vw;
+}
+div.about-me{
+	width: 50vw;
+}
+div.info{
+	width: 50vw;
+	right: auto;
+	
 }
